@@ -86,7 +86,7 @@
     description = "nixos";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-    #  thunderbird
+        k3s
     ];
   };
 
@@ -100,6 +100,7 @@
   #  wget
 	git
 	htop
+	gh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
